@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "preview": "workers-preview < dist/bundle.js"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.1.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "workers-preview": "^1.0.1"
+  },
+  "dependencies": {
+    "path-to-regexp": "^2.2.1"
+  }
+}
